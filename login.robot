@@ -13,5 +13,6 @@ Open facebook by Chrome
     Input Text  //input[@name='loginemail']     amarkotasky@gmail.com
     Input Text  //input[@name='loginpassword']  Amar123@
     Click Button    Sign In
+    Wait Until Page Contains    My Account   10
     Capture Page Screenshot
     Close Browser
