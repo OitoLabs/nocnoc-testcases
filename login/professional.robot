@@ -7,7 +7,6 @@ Login professional
 *** Keywords ***
 Open nocnoc by firefox
     Open Browser    https://qa.nocnoc-internal.com/professional/  firefox
-    Wait Until Page Contains    How it Works?   10
     Click Element       //a[contains(text(),'Sign In')]
     Wait Until Page Contains    Forgot password   10
     Input Text  //input[@name='loginemail']     amarkotasky@gmail.com
