@@ -12,7 +12,9 @@ Open nocnoc by firefox
     Wait Until Page Contains    Forgot password   10
     Input Text  //input[@name='loginemail']     amarkotasky@gmail.com
     Input Text  //input[@name='loginpassword']  Amar123@
+    Capture Page Screenshot
     Click Button    Sign in
+    Capture Page Screenshot
     Wait Until Page Contains    Basic Details   20
     Capture Page Screenshot
     Close Browser
