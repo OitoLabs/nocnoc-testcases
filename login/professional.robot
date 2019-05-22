@@ -13,8 +13,9 @@ Open nocnoc by firefox
     Input Text  //input[@name='loginemail']     amarkotasky@gmail.com
     Input Text  //input[@name='loginpassword']  Amar123@
     Capture Page Screenshot
-    Click Button    Sign in
+    Click Button    //button[contains(text(),'Sign in')]
     Capture Page Screenshot
-    Wait Until Page Contains    Basic Details   20
+    Sleep  5s
+    Wait Until Page Contains    Sign Out    20
     Capture Page Screenshot
     Close Browser
