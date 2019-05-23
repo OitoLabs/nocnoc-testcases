@@ -2,10 +2,10 @@
 Library    Selenium2Library
 
 *** Test Cases ***
-Login facebook
-    Open facebook by Chrome
+Login nocnoc
+    Open buyer by firefox
 *** Keywords ***
-Open facebook by Chrome
+Open buyer by firefox
     Open Browser    https://qa.nocnoc-internal.com/en  firefox
     Wait Until Page Contains    Special Deals   10
     Click Element       //a[contains(text(),'Sign In')]
