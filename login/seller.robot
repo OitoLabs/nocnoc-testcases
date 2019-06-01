@@ -11,6 +11,6 @@ Open nocnoc by firefox
     Input Text  //input[@name='loginemailphone']     amar.khan@oitolabs.io
     Input Text  //input[@name='loginpassword']  Amar123@
     Click Button    Sign in
-    Wait Until Page Contains    My Account   10
+    Wait Until Page Contains    Dashboard   10
     Capture Page Screenshot
     Close Browser
