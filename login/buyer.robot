@@ -10,8 +10,8 @@ Open buyer by firefox
     Wait Until Page Contains    Special Deals   10
     Click Element       //a[contains(text(),'Sign In')]
     Wait Until Page Contains    Forgot Password   10
-    Input Text  //input[@name='loginemail']     amarkotasky@gmail.com
-    Input Text  //input[@name='loginpassword']  Amar123@
+    Input Text  //input[@name='loginemail']     vikram.gorre@oitolabs.io
+    Input Text  //input[@name='loginpassword']  bdSeller123!
     Click Button    Sign In
     Wait Until Page Contains    My Account   10
     Capture Page Screenshot
