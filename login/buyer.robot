@@ -6,7 +6,7 @@ Login nocnoc
     Open buyer by firefox
 *** Keywords ***
 Open buyer by firefox
-    Open Browser    https://qa.nocnoc-internal.com/en  firefox
+    Open Browser    https://nocnoc.com/en  firefox
     Wait Until Page Contains    Special Deals   10
     Click Element       //a[contains(text(),'Sign In')]
     Wait Until Page Contains    Forgot Password   10
